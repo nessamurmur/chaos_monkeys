@@ -19,6 +19,12 @@ and the percent of chance the directory can be destroyed.
 copy `dirstroyer/dirstroyer.sh` wherever you want in your filesystem
 and edit your crontab to run the task as often as you like.
 
+The first argument passed to dirstroyer will be the directory to destroy
+The second will be the chance it will be destroyed.
+
+Example crontab
+`@daily path/to/dirstroyer.sh ~/code 20`
+
 ### Contributing
 
 1. Fork it
