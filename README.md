@@ -7,6 +7,8 @@ Cause chaos and destruction on your local dev box.
 Destroys everything an entire directory at random causing you to
 setup a project all over again.
 
+See README in dirstroyer directory for more details.
+
 #### Setup
 
 Run `make bootstrap` passing in arguments for your code directory
